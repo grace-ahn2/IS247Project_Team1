@@ -22,12 +22,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        ArrayList<User> users = new ArrayList<>();
+
         System.out.println("Welcome to MuscleMind!");
         System.out.println("Before we begin tracking your progress..\n");
 
-        UserInput user = new UserInput();
-        user.CollectUserInput();
-
+        UserInput user1 = new UserInput();
+        user1.CollectUserInput();
+        
+        users.add(user1);
         System.out.println("Created a new user profile for you!");
 
         int menuOption = 1;
@@ -72,7 +75,7 @@ public class Main {
                 System.out.println("Invalid input. Please enter a number 1-6.");
             }
         }
-        
+
         input.close();
     }
 }
