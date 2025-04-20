@@ -30,29 +30,49 @@ public class Main {
 
         System.out.println("Created a new user profile for you!");
 
+        int menuOption = 1;
 
-        
-
-        System.out.print("What is your age? ");
-        user_age = input.nextInt();
-        System.out.print("What is your gender (M/F)? ");
-        user_gender = input.next().charAt(0);
-        System.out.print("What is your height (in)? ");
-        user_height = input.nextDouble();
-        System.out.print("What is your weight (lbs)? ");
-        user_weight = input.nextDouble();
-
-        while (menuOption) {
+        while (menuOption != 6) {
             System.out.println("\n=== MuscleMind Tracker ===");
             System.out.println("1. Record Workout");
             System.out.println("2. Track Progress");
             System.out.println("3. Schedule Workout");
             System.out.println("4. Suggested Workouts");
             System.out.println("5. Manage User Profile");
-            // Placeholder: menu logic would go here
-            menuOption = false; // prevent infinite loop for now
-        }
+            System.out.println("6. Exit program");
+            System.out.println("What would you like to do?");
 
+            try{
+                String userChoice = input.nextLine();
+                menuOption = Integer.parseInt(userChoice);
+                
+                switch (menuOption) {
+                    case 1:
+                        System.out.println("recording workout...");
+                        break;
+                    case 2:
+                        System.out.println("tracking progress...");
+                        break;
+                    case 3:
+                        System.out.println("scheduling workout...");
+                        break;
+                    case 4:
+                        System.out.println("suggetsing workout...");
+                        break;
+                    case 5:
+                        System.out.println("managing user profile...");
+                        break;
+                    case 6:
+                        System.out.println("Thanks for using MuscleMind!");
+                        break;
+                    default:
+                        System.out.println("Invalid input.");
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input. Please enter a number 1-6.");
+            }
+        }
+        
         input.close();
     }
 }
