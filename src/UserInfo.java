@@ -12,63 +12,25 @@
  * @version 1.0
  */
 public class UserInfo {
+    private int age;
+    private char gender;
     private double height;
     private double weight;
     private double goal_weight;
-    private int age;
-    private char gender;
+    
 
     /**
      * Default constructor for creating a blank user profile.
      */
     public UserInfo() {}
 
-    /**
-     * Gets the user’s current height.
-     * @return height in inches
-     */
-    public double getHeight() {
-        return height;
-    }
-
-    /**
-     * Updates the user’s height.
-     * @param height height in inches
-     */
-    public void setHeight(double height) {
+    public UserInfo(int age, char gender, double height, double weight, double goal_weight) {
+        this.age = age;
+        this.gender = gender;
         this.height = height;
-    }
-
-    /**
-     * Gets the user’s current weight.
-     * @return weight in pounds
-     */
-    public double getWeight() {
-        return weight;
-    }
-
-    /**
-     * Updates the user’s weight.
-     * @param weight weight in pounds
-     */
-    public void setWeight(double weight) {
         this.weight = weight;
-    }
-
-    /**
-     * Gets the user’s target or goal weight.
-     * @return goal weight in pounds
-     */
-    public double getGoal_weight() {
-        return goal_weight;
-    }
-
-    /**
-     * Sets the user’s goal weight.
-     * @param goal_weight target weight in pounds
-     */
-    public void setGoal_weight(double goal_weight) {
         this.goal_weight = goal_weight;
+
     }
 
     /**
@@ -79,13 +41,6 @@ public class UserInfo {
         return age;
     }
 
-    /**
-     * Sets the user’s age.
-     * @param age age in years
-     */
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     /**
      * Gets the user’s gender.
@@ -96,10 +51,28 @@ public class UserInfo {
     }
 
     /**
-     * Sets the user’s gender.
-     * @param gender 'M' or 'F'
+     * Gets the user’s current height.
+     * @return height in inches
      */
-    public void setGender(char gender) {
-        this.gender = gender;
+    public double getHeight() {
+        return height;
+    }
+
+
+    /**
+     * Gets the user’s current weight.
+     * @return weight in pounds
+     */
+    public double getWeight() {
+        return weight;
+    }
+
+
+    /**
+     * Gets the user’s target or goal weight.
+     * @return goal weight in pounds
+     */
+    public double getGoal_weight() {
+        return goal_weight;
     }
 }

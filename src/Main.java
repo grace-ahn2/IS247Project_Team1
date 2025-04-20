@@ -22,16 +22,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        boolean menuOption = true;
-        int userChoice;
-        double user_height;
-        double user_weight;
-        double user_goal_weight;
-        int user_age;
-        char user_gender;
-
         System.out.println("Welcome to MuscleMind!");
-        System.out.println("Before we can begin tracking your progress..\n");
+        System.out.println("Before we begin tracking your progress..\n");
+
+        UserInput user = new UserInput();
+        user.CollectUserInput();
+
+        System.out.println("Created a new user profile for you!");
+
+
+        
 
         System.out.print("What is your age? ");
         user_age = input.nextInt();
