@@ -1,25 +1,27 @@
-# 🏋️‍♂️ MuscleMind, a Fitness Tracker Console Application  
+# 🏋️‍♂️ MuscleMind, a Fitness Tracker Console Application
 
-## 📌 Project Overview  
-**MuscleMind** is a fitness Tracker Console Application** is a **Java-based** program designed to help users **log workouts, track calorie burn, and monitor progress over time**. Unlike complex fitness apps that require subscriptions or excessive manual input, our tracker provides a **simple, intuitive experience** for users to track their fitness journey effortlessly.
+## 📌 Project Overview
+
+**MuscleMind** is a **Java-based** console application designed to help users **log workouts, track calorie burn, and monitor progress over time**. Unlike complex fitness apps that require subscriptions or excessive manual input, our tracker provides a **simple, intuitive experience** for users to track their fitness journey effortlessly.
 
 This tracker logs **workout duration, type, and intensity** while also recording **user weight, gender, goal weight, age, and height**. Users can **view their workout history, track calories burned, and monitor their fitness improvements.**
 
 ---
 
-## 🏗️ Project Team  
+## 🏗️ Project Team
 
-| Team Member       | Role |
-|------------------|-----------------------------|
-| **Anu Olawale**   | Project Manager |
-| **Grace Ahn**    | Backend Developer |
+| Team Member        | Role                               |
+| ------------------ | ---------------------------------- |
+| **Anu Olawale**    | Project Manager                    |
+| **Grace Ahn**      | Backend Developer                  |
 | **Zia Animashaun** | Frontend (User) Experience Auditor |
-| **Taylor Ajayi** | Backend Developer |
-| **Jacob Browne** | Backend Testing Engineer |
+| **Taylor Ajayi**   | Backend Developer                  |
+| **Jacob Browne**   | Backend Testing Engineer           |
 
 ---
 
-## 💡 Problem Statement  
+## 💡 Problem Statement
+
 Many individuals struggle with tracking their fitness progress effectively. Existing fitness apps tend to be **overly complicated**, requiring **extensive manual input** or **subscription fees**, making it difficult for users to maintain consistent workout logs.
 
 **MuscleMind** solves this by offering a **simple, structured, and efficient** way to:  
@@ -32,61 +34,89 @@ This **console-based fitness tracker** eliminates unnecessary complexity while p
 
 ---
 
-## 🎯 Features    
+## 🎯 Features
+
 ✅ **Log workouts** (type, duration, intensity).  
-✅ **Track progress** with weekly statistics.    
-✅ **Undo last workout entry** (Stack-based functionality).    
-✅ **Suggest exercises** based on user history (Randomized).    
-✅ **Manage user profiles** (weight, age, fitness goals).    
-✅ **Schedule workouts** using the Date library.    
+✅ **Track progress** with stored workout history.  
+✅ **Suggest exercises** based on user history (Randomized).  
+✅ **Manage user profiles** (weight, age, fitness goals).  
+✅ **Schedule workouts** using the Date library.  
 
 ---
 
-## 📚 Technologies Used  
-- **Java** (Core Programming)  
-- **Object-Oriented Programming (OOP)** (Encapsulation, Inheritance, Abstraction, Interfaces)  
-- **Data Structures** (ArrayLists, Maps, Stacks)  
-- **Exception Handling** (Managing invalid inputs)  
-- **Built-in Libraries** (`Date`, `Random`)  
+## 📚 Technologies Used
+
+* **Java** (Core Programming)
+* **Object-Oriented Programming (OOP)** (Encapsulation, Inheritance, Abstraction, Interfaces)
+* **Data Structures** (ArrayLists, Maps, Stacks)
+* **Exception Handling** (Managing invalid inputs)
+* **Built-in Libraries** (`Date`, `Random`)
 
 ---
 
-## 🎮 How to Use  
+## 🎮 How to Use
+
 ### 🛠️ **Installation & Setup**
-1️⃣ **Clone the Repository:**  
+
+1️⃣ **Clone the Repository:**
+
 ```sh
-git clone https://github.com/your-username/Fitness-Tracker.git
+git clone https://github.com/grace-ahn2/IS247Project_Team1.git
 ```
-2️⃣ **Navigate to the Project Directory:**  
+
+2️⃣ **Navigate to the Project Directory:**
+
 ```sh
-cd Fitness-Tracker
+cd IS247Project_Team1
 ```
-3️⃣ **Compile and Run the Program:**  
+
+3️⃣ **Compile and Run the Program:**
+
 ```sh
-javac Main.java && java Main
+javac src/*.java && java -cp src Main
 ```
-4️⃣ **Follow the menu prompts** to log workouts, view stats, and undo actions!  
 
 ---
 
-## 📌 Project Management  
-- **Kanban Board:** [GitHub Project Board](https://github.com/your-username/Fitness-Tracker/projects)  
-- **Issues & Tasks:** Tracked using GitHub Issues.  
-- **Documentation:** JavaDocs & UML Diagrams available in the `docs/` folder.  
+## 📌 Project Management
+
+* 📂 **GitHub Code Repository Link:**
+  [IS247Project\_Team1 Repository](https://github.com/grace-ahn2/IS247Project_Team1)
+
+* 📋 **GitHub Project Board Link:**
+  *If you have an actual board set up, paste the link here. If not, remove this line or take a screenshot and include it in the submission.*
+
+* 📚 **GitHub Javadocs Link:**
+  [View Online JavaDocs](https://grace-ahn2.github.io/IS247Project_Team1/index.html)
+
+* 📄 **GitHub Project README.md File:**
+  [README.md](https://github.com/grace-ahn2/IS247Project_Team1/blob/master/README.md)
+
+* 📐 **UML Diagrams:**
+  ![UML Diagram](./UML_Diagrams/UML_Diagrams.png)
+
+* 📚 **Javadoc Pages Inside the GitHub Code Repository:**
+  Located in the `/docs` directory of this repository.
+
+* ✅ **A Complete Working Project**
+  This project contains clear input, processing, and output logic based on all given requirements.
 
 ---
 
-## 📜 License  
-This project is **open-source** and licensed under the MIT License.  
+## 📜 License
+
+This project is **open-source** and licensed under the MIT License.
 
 ---
 
-## 👥 Contributors  
-💖 This project was developed by **Anu, Grace, Zia, Jacob, and Taylor** as part of our **Capstone Java II Programming Group Project**.  
+## 👥 Contributors
+
+💖 This project was developed by **Anu, Grace, Zia, Jacob, and Taylor** as part of our **Capstone Java II Programming Group Project**.
 
 ---
 
-## 💬 Support  
+## 💬 Support
+
 For any questions, issues, or feature requests, please open an issue on the **GitHub repository**.
 
 ---
