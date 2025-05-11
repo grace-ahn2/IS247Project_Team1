@@ -84,7 +84,7 @@ javac src/*.java && java -cp src Main
   [IS247Project\_Team1 Repository](https://github.com/grace-ahn2/IS247Project_Team1)
 
 * 📋 **GitHub Project Board Link:**
-  *If you have an actual board set up, paste the link here. If not, remove this line or take a screenshot and include it in the submission.*
+  [Project Board](https://github.com/users/grace-ahn2/projects/1)
 
 * 📚 **GitHub Javadocs Link:**
   [View Online JavaDocs](https://grace-ahn2.github.io/IS247Project_Team1/index.html)
@@ -93,7 +93,7 @@ javac src/*.java && java -cp src Main
   [README.md](https://github.com/grace-ahn2/IS247Project_Team1/blob/master/README.md)
 
 * 📐 **UML Diagrams:**
-  ![UML Diagram](./UML_Diagrams/UML_Diagrams.png)
+  [UML Diagram](https://github.com/grace-ahn2/IS247Project_Team1/blob/master/UML_Diagrams/UMLDiagram.png)
 
 * 📚 **Javadoc Pages Inside the GitHub Code Repository:**
   Located in the `/docs` directory of this repository.
