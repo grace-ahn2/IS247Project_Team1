@@ -1,20 +1,19 @@
+// WorkoutHistory.java
 import java.util.Date;
 
 public class WorkoutHistory {
     private String workoutDefined;
     private String workoutCategory;
-    private int timeSpent; // in minutes
+    private int timeSpent;
     private Date workoutDate;
 
-    // Constructor
     public WorkoutHistory(String workoutDefined, String workoutCategory, int timeSpent) {
         this.workoutDefined = workoutDefined;
         this.workoutCategory = workoutCategory;
         this.timeSpent = timeSpent;
-        this.workoutDate = new Date(); // sets to current date
+        this.workoutDate = new Date();
     }
 
-    // Getters using `this` keyword
     public String getWorkoutType() {
         return this.workoutDefined;
     }
@@ -31,11 +30,9 @@ public class WorkoutHistory {
         return this.workoutDate;
     }
 
-    // Optional toString for debugging
     @Override
     public String toString() {
         return "Workout: " + workoutDefined + " | Category: " + workoutCategory +
                 " | Time: " + timeSpent + " mins | Date: " + workoutDate;
     }
 }
-
