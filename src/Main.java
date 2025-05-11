@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println("Welcome to MuscleMind!");
         System.out.println("Before we begin tracking your progress..\n");
-
+        
         UserInput userInput = new UserInput();
         UserInfo userInfo = userInput.CollectUserInput();
 

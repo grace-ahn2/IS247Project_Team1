@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"UserInfo"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"CaloriesBurned"},{"p":"<Unnamed>","l":"Main"},{"p":"<Unnamed>","l":"UserInfo"},{"p":"<Unnamed>","l":"UserInput"},{"p":"<Unnamed>","l":"Workout"},{"p":"<Unnamed>","l":"WorkoutGoalConfirmation"},{"p":"<Unnamed>","l":"WorkoutGoalProgress"},{"p":"<Unnamed>","l":"WorkoutHistory"}];updateSearchResults();
